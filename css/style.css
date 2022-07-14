@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:  #fbbc02;
+    position: relative;
+    padding-bottom: 8vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(47, 44, 44);
+}
+.mercado-liebre{
+    width: 11vw;
+    position: absolute;
+    left: 9vw;
+    top: 1vw;
+}
+.productos{
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+    font-size: larger;
+}
+header p{
+    position: absolute;
+    left: 74vw;
+    top: 1vw;
+    font-size: medium;
+}
+.cuenta{
+    position: absolute;
+    top: 4vw;
+    left: 75vw;
+    font-size: medium;
+}
+.Crear-cuenta{
+    margin: 2vw;
+}
+.bx-map-pin{
+    position: absolute;
+    right: 20vw;
+    top: 0vw;
+}
+
+.bx-id-card{
+    position: absolute;
+    top:1vw;
+    right:5vw;
+    font-size: 110%;
+}
+.bx-log-in{
+    font-size: 110%;
+    top: 1vw;
+    position: absolute;
+    
+}
+.inputs{
+    margin: relative;
+}
+::placeholder{
+    opacity: .6;
+    font-size: 15px;
+}
+.text{
+    position: absolute;
+    top: 1vw;
+    left: 25vw;
+    width: 40vw;
+    height: 2vw;
+    border: none;
+    padding: 1.5vw;
+}
+.banner1{
+    max-width: 100%;
+}
+
+main{
+    background-color: rgb(250, 247, 247);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+}
+main h2{
+    text-align: center;
+    padding: 3vw;
+    font-size: 3vw;
+    text-decoration-line: underline;
+    opacity: .8;
+    text-decoration-color: yellow;
+    
+}
+article{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+article img{
+    width: 22vw;
+    border: 2px solid rgb(219, 212, 212);
+    margin-left: 2vw;
+    border-radius: 1vw;
+   padding-bottom: 7vw;
+   
+}
+article p{
+    position: absolute;
+    left: 5vw;
+    top: 23vw;
+}
+.cafetera{
+    width: 8vw;
+    height: 2vw;
+    position: absolute;
+    left: 17vw;
+    top: 23vw;
+    background-color: blue;
+    border: none;
+    border-radius:7px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+.labtop{
+    position: absolute;
+    left: 28vw;
+    top: 23vw;
+}
+.compu{
+    width: 8vw;
+    height: 2vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+    background-color: blue;
+    border: none;
+    border-radius:7px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+.tele{
+    width: 8vw;
+    height: 2vw;
+    position: absolute;
+    left: 64vw;
+    top: 23vw;
+    background-color: blue;
+    border: none;
+    border-radius:7px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+.tv{
+    left: 52vw;
+    top: 23vw;
+    position: absolute;
+}
+.sam{
+    width: 8vw;
+    height: 2vw;
+    position: absolute;
+    left: 88vw;
+    top: 23vw;
+    background-color: blue;
+    border: none;
+    border-radius:7px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+.celu{
+    position: absolute;
+    left: 76vw;
+    top: 23vw;
+}
+/* article p{
+    font-size: 17px;
+} */
+hr{
+    margin: 3vw;
+    background-color: gray;
+}
+h3{
+    padding-bottom: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    text-decoration-line: underline;
+    opacity: .8;
+    text-decoration-color: yellow;
+}
+.destacados{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4vw;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+    
+
+}
+.destacados img{
+    width: 40vw;
+    height: 30vw;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin-left: 1vw;
+}
+.pro1:hover{
+        opacity: .5;
+}
+.pro2:hover{
+    opacity: .5;
+}
+/* .gala{
+    top: 170px;
+    left: 310px;
+    position: absolute;
+}
+.smart{
+    position: absolute;
+    top: 200px;
+    left: 870px;
+} */
+.productos{
+    text-decoration: none;
+    color: rgb(47, 46, 46);
+}
+.productos:hover{
+    color: black;
+}
+.Crear-cuenta{
+    text-decoration: none;
+    color: rgb(47, 46, 46);
+}
+.Crear-cuenta:hover{
+    color: black;
+}
+.Login{
+    text-decoration: none;
+    color: rgb(47, 46, 46);
+}
+.Login:hover{
+    color: black;
+}
+.gala{
+    color: black;
+}
+.smart{
+    color: black;
+}
+footer{
+    display: flex;
+}
+footer li{
+    list-style:none;
+}
+.seguinos{
+    padding-left: 5vw;
+    font-weight: bold;
+    border-right: 1px solid rgb(203, 199, 199);
+    padding-right: 15vw;
+
+}
+.otros-servicios{
+    padding-left: 5vw;
+    font-weight: bold;
+    border-right: 1px solid rgb(203, 199, 199);
+    padding-right: 13vw;
+}
+.trabaja{
+    padding-left: 5vw;
+    font-weight: bold;
+}
+.fin{
+    width: 14vw;
+}
+
+@media screen and (max-width : 480px) {
+    header{
+        padding-bottom: 10vw;
+    }
+    .mercado-liebre{
+        top:2vw;
+        width: 18vw;
+    }
+    .productos{
+        display:none;
+    }
+    header p{
+        display: none;
+    }
+    .cuenta{
+        display: none;
+    }
+    ::placeholder{
+        font-size: 0.8rem;
+    }
+    .text{
+        height: 5vw;
+        width: 46vw;
+        left: 30vw;
+        top:2vw;
+        border-radius: 1vw;
+    }
+    main h2{
+        font-size: 5vw;
+    }
+    article p{
+        font-size: 55%;
+        position: absolute;
+    left: 5vw;
+    top: 22vw;
+    }
+    .cafetera{
+        width: 18vw;
+        height: 2vw;
+        position: absolute;
+        left: 6vw;
+        top: 26vw;
+        background-color: blue;
+        border: none;
+        border-radius:7px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1vw;
+    }
+    .labtop{
+        position:absolute;
+        left: 29vw;
+        top: 22vw;
+    }
+    .compu{
+    width: 18vw;
+    height: 2vw;
+    position: absolute;
+    left: 30vw;
+    top: 26vw;
+    font-size: 1vw;
+}
+.tele{
+    width: 18vw;
+    height: 2vw;
+    position: absolute;
+    left: 54vw;
+    top: 26vw;
+    font-size: 1vw;
+}
+.tv{
+    left: 54vw;
+    top: 22vw;
+    position: absolute;
+}
+.sam{
+    width: 18vw;
+    height: 2vw;
+    position: absolute;
+    left: 78vw;
+    top: 26vw;
+    font-size: 1vw;
+}
+.celu{
+    position: absolute;
+    left: 78vw;
+    top: 22vw;
+}
+footer{
+    display: grid;
+    text-align: center;
+}
+.seguinos h4{
+    font-size: 7vw;
+
+}
+.seguinos{
+    border-bottom: 1px solid rgb(203, 199, 199);
+    padding: 0;
+}
+.otros-servicios h4{
+    font-size: 6vw;
+
+}
+.otros-servicios{
+    border-bottom: 1px solid rgb(203, 199, 199);
+}
+.trabaja h4{
+    font-size: 6vw;
+
+}
+.fin{
+    height: 7vw;
+    width: 33vw;
+}
+    }
